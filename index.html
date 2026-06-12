@@ -23,7 +23,7 @@
                         mumu: {
                             blue: '#00A196',       // 科技青綠色 (官方主要 pill 科技色)
                             blueLight: '#00D2C4',  // 亮青綠色
-                            orange: '#FFC53D',     // 眼動溫暖黃 (官方圓圈顏色)
+                            orange: '#FFC53D',     // 眼動溫慢黃 (官方圓圈顏色)
                             navy: '#1E293B',       // 質感深石墨藍 (官方文字主色)
                             light: '#f8fafc',
                             slate: '#475569'
@@ -535,7 +535,7 @@
                                 <!-- Unified clean bullet lists for Year-plus Rejoining, entirely free of standalone boxes/cards as requested -->
                                 <div class="text-xs md:text-sm text-slate-600 w-full md:w-3/4 leading-relaxed font-medium space-y-1">
                                     <div>• <strong>回歸當下職級</strong>：回歸初次派案一律由 <strong>T1 (儲備師資)</strong> 起跑，領取基礎課酬。</div>
-                                    <div>• <strong>歸隊必備條件</strong>：需補齊中斷期間之最新必修核心課程，並通過督導前期檢核即可重新排課。</div>
+                                    <div>• <strong>歸隊必備條件</strong>：微補齊中斷期間之最新必修核心課程，並通過督導前期檢核即可重新排課。</div>
                                     <div class="pt-1">• <strong>年底考核目標</strong>：</div>
                                     <ul class="list-disc pl-8 space-y-0.5 text-xs text-slate-600">
                                         <li>生涯總堂數滿 <strong>240 堂</strong>以上 ➔ 可申請晉升 <strong>C2</strong> 並繳交相關晉升申請資料。</li>
@@ -656,7 +656,7 @@
                         </div>
                     </div>
 
-                    <!-- 3. Dynamic Threshold Status Check (Polished to fit only target goal classes logically) -->
+                    <!-- 3. Dynamic Threshold Status Check -->
                     <div id="threshold-status-box" class="p-4 rounded-xl border flex items-start gap-3">
                         <div id="threshold-icon" class="text-2xl mt-0.5"></div>
                         <div>
@@ -903,7 +903,7 @@
             }
         }
 
-        // Tab Switcher Controller (Removed policy tab to optimize view logic)
+        // Tab Switcher Controller
         function switchTab(tabId) {
             // Update active styles on tabs
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
@@ -1112,11 +1112,11 @@
             container.classList.add('scale-95');
         }
 
-        // Triggered by slide 9 action button (Updated text verbatim based on image_af88c0.png)
+        // Triggered by slide 9 action button
         function triggerActivation() {
             let desc = `
                 <div class="text-left space-y-3">
-                    <p>感謝各位特教夥伴！<strong>CEI眼動認證師資管理新制</strong> 已確認正式啟動。</p>
+                    <p>感謝各位夥伴！<strong>CEI眼動認證師資管理新制</strong> 已確認正式啟動。</p>
                     <p>祝各位老師教學順心！有任何問題可隨時利用本頁面的「薪資試算」功能釐清法規，與專屬行政督導聯繫。</p>
                 </div>
             `;
